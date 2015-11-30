@@ -1,6 +1,7 @@
 # Fix::Let
 
 [![Build Status](https://travis-ci.org/fixrb/fix-let.svg?branch=master)][travis]
+[![Code Climate](https://codeclimate.com/github/fixrb/fix-let/badges/gpa.svg)][codeclimate]
 [![Gem Version](https://badge.fury.io/rb/fix-let.svg)][gem]
 [![Inline docs](http://inch-ci.org/github/fixrb/fix-let.svg?branch=master)][inchpages]
 [![Documentation](http://img.shields.io/:yard-docs-38c800.svg)][rubydoc]
@@ -103,7 +104,8 @@ See `LICENSE.md` file.
 
 [gem]: https://rubygems.org/gems/fix-let
 [travis]: https://travis-ci.org/fixrb/fix-let
-[inchpages]: http://inch-ci.org/github/fixrb/fix-let/
+[codeclimate]: https://codeclimate.com/github/fixrb/fix-let
+[inchpages]: http://inch-ci.org/github/fixrb/fix-let
 [rubydoc]: http://rubydoc.info/gems/fix-let/frames
 
 ***
