@@ -43,5 +43,9 @@ module Fix
     def method_missing(name, *args, &block)
       helpers.key?(name) ? helpers.fetch(name).call : super
     end
+
+    def respond_to_missing?(name, include_private = false)
+      helpers.key?(name) || super
+    end
   end
 end
