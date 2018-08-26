@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'fix'
 
 # Namespace for the Fix framework.
