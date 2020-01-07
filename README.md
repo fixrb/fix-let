@@ -1,24 +1,12 @@
 # Fix::Let
 
-[![Build Status](https://travis-ci.org/fixrb/fix-let.svg?branch=master)][travis]
+[![Build Status](https://api.travis-ci.org/fixrb/fix-let.svg?branch=master)][travis]
 [![Code Climate](https://codeclimate.com/github/fixrb/fix-let/badges/gpa.svg)][codeclimate]
 [![Gem Version](https://badge.fury.io/rb/fix-let.svg)][gem]
-[![Inline docs](http://inch-ci.org/github/fixrb/fix-let.svg?branch=master)][inchpages]
-[![Documentation](http://img.shields.io/:yard-docs-38c800.svg)][rubydoc]
+[![Inline docs](https://inch-ci.org/github/fixrb/fix-let.svg?branch=master)][inchpages]
+[![Documentation](https://img.shields.io/:yard-docs-38c800.svg)][rubydoc]
 
 > Provides `let` method for memoized helper definition.
-
-## Contact
-
-* Home page: https://github.com/fixrb/fix-let
-* Bugs/issues: https://github.com/fixrb/fix-let/issues
-* Support: https://stackoverflow.com/questions/tagged/fixrb
-
-## Rubies
-
-* [MRI](https://www.ruby-lang.org/)
-* [Rubinius](http://rubini.us/)
-* [JRuby](http://jruby.org/)
 
 ## Installation
 
@@ -68,44 +56,37 @@ The output should look like this:
     Ran 1 tests in 0.000243 seconds
     100% compliant - 0 infos, 0 failures, 0 errors
 
-## Security
+## Contact
 
-As a basic form of security __Fix::Let__ provides a set of SHA512 checksums for
-every Gem release.  These checksums can be found in the `checksum/` directory.
-Although these checksums do not prevent malicious users from tampering with a
-built Gem they can be used for basic integrity verification purposes.
+* Home page: https://github.com/fixrb/fix-let
+* Bugs/issues: https://github.com/fixrb/fix-let/issues
+* Support: https://stackoverflow.com/questions/tagged/fixrb
 
-The checksum of a file can be checked using the `sha512sum` command.  For
-example:
+## Rubies
 
-    $ sha512sum pkg/fix-let-0.1.0.gem
-    26198b7812a5ac118a5f2a1b63927871b3378efb071b37abb7e1ba87c1aac9f3a6b45eeae87d9dc647b194c15171b13f15e46503a9a1440b1233faf924381ff5  pkg/fix-let-0.1.0.gem
+* [MRI](https://www.ruby-lang.org/)
+* [Rubinius](http://rubini.us/)
+* [JRuby](http://jruby.org/)
 
 ## Versioning
 
 __Fix::Let__ follows [Semantic Versioning 2.0](http://semver.org/).
 
-## Contributing
-
-1. [Fork it](https://github.com/fixrb/fix-let/fork)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
-
 ## License
 
-See `LICENSE.md` file.
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+***
+
+<p>
+  This project is sponsored by:<br />
+  <a href="https://sashite.com/"><img
+    src="https://github.com/fixrb/fix-let/raw/master/img/sashite.png"
+    alt="Sashite" /></a>
+</p>
 
 [gem]: https://rubygems.org/gems/fix-let
 [travis]: https://travis-ci.org/fixrb/fix-let
 [codeclimate]: https://codeclimate.com/github/fixrb/fix-let
-[gemnasium]: https://gemnasium.com/fixrb/fix-let
 [inchpages]: http://inch-ci.org/github/fixrb/fix-let
 [rubydoc]: http://rubydoc.info/gems/fix-let/frames
-
-***
-
-This project is sponsored by:
-
-[![Sashite](https://sashite.com/img/sashite.png)](https://sashite.com/)
