@@ -4,4 +4,5 @@
 require 'bundler/setup'
 require 'fix/let'
 require 'irb'
+
 IRB.start

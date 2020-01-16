@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require_relative File.join '..', '..', 'support', 'coverage'
+require_relative File.join('..', '..', 'support', 'coverage')
 require_relative 'app'
-require_relative File.join '..', '..', '..', 'lib', 'fix', 'let'
+require_relative File.join('..', '..', '..', 'lib', 'fix', 'let')
 require 'spectus'
 
 include Spectus

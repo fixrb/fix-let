@@ -8,6 +8,10 @@
 
 > Provides `let` method for memoized helper definition.
 
+⚠️ This gem is no longer maintained,
+as the `let` method was merged in to [Fix](https://github.com/fixrb/fix)
+since the version [1.0.0.beta4](https://rubygems.org/gems/fix/versions/1.0.0.beta4).
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -58,19 +62,11 @@ The output should look like this:
 
 ## Contact
 
-* Home page: https://github.com/fixrb/fix-let
-* Bugs/issues: https://github.com/fixrb/fix-let/issues
-* Support: https://stackoverflow.com/questions/tagged/fixrb
-
-## Rubies
-
-* [MRI](https://www.ruby-lang.org/)
-* [Rubinius](http://rubini.us/)
-* [JRuby](http://jruby.org/)
+* Source code: https://github.com/fixrb/fix-let
 
 ## Versioning
 
-__Fix::Let__ follows [Semantic Versioning 2.0](http://semver.org/).
+__Fix::Let__ follows [Semantic Versioning 2.0](https://semver.org/).
 
 ## License
 
@@ -88,5 +84,5 @@ The gem is available as open source under the terms of the [MIT License](https:/
 [gem]: https://rubygems.org/gems/fix-let
 [travis]: https://travis-ci.org/fixrb/fix-let
 [codeclimate]: https://codeclimate.com/github/fixrb/fix-let
-[inchpages]: http://inch-ci.org/github/fixrb/fix-let
-[rubydoc]: http://rubydoc.info/gems/fix-let/frames
+[inchpages]: https://inch-ci.org/github/fixrb/fix-let
+[rubydoc]: https://rubydoc.info/gems/fix-let/frames
